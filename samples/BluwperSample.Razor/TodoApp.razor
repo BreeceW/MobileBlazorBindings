@@ -1,0 +1,13 @@
+﻿<Button BackgroundColor="@Background" OnClick="@Test">@UwpMessage</Button>
+
+@code
+{
+    string UwpMessage = "Test";
+    string Background;
+
+    void Test()
+    {
+        UwpMessage = "Welcome";
+        Background = "#FF5D6B99";
+    }
+}
